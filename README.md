@@ -1,15 +1,18 @@
-AI/ML Image Classification Project 
-Yeh repository ek simple image classification project hai jo Python mein banaya gaya hai. Is project ka main maqsad machine learning aur image processing ke basics ko samjhana hai. Ismein ek dummy model ka use kiya gaya hai jisse aap aage चलकर apne khud ke models se replace kar sakte hain.
+AI/ML Image Classification Project
 
-Features 
-Dummy Model: Project mein ek simple Keras model banaya gaya hai taaki aapko ekdum shuru se start na karna pade.
+This repository contains a simple image classification project built in Python. The main goal is to help you understand the basics of machine learning and image processing. It uses a dummy model by default, which you can later replace with your own custom models.
 
-Image Preprocessing: Code image ko model ke liye taiyar karta hai, jaise ki uski size ko theek karna.
+Features
 
-Self-Contained: Is project ko chalane ke liye kisi external image file ki zaroorat nahi hai. Yeh khud hi ek black image bana kar us par prediction karta hai.
+Dummy Model: A basic Keras model is included so you don’t have to start completely from scratch.
 
-Prerequisites 🛠
-Is project ko chalane ke liye aapke system par yeh libraries install honi chahiye:
+Image Preprocessing: Automatically prepares images for the model (e.g., resizing to the correct dimensions).
+
+Self-Contained: No need to provide your own image files — the project generates a black image internally and runs predictions on it.
+
+Prerequisites 
+
+Before running this project, make sure you have these Python libraries installed:
 
 tensorflow
 
@@ -17,34 +20,37 @@ opencv-python
 
 numpy
 
-How to Run 
-In steps ko follow karke aap is project ko chala sakte hain:
+How to Run
 
-Repository Clone Karein: Apne terminal mein yeh command chala kar repository ko download karein.
+Clone the repository
 
 git clone https://github.com/harshagupta2005/AI_ML_Detection
 
-Folder Mein Jaayein: Ab project ke folder mein jaayen.
+
+Navigate to the project folder
 
 cd AI_ML_Detection
 
-Libraries Install Karein: Required libraries ko install karne ke liye yeh command chalaein.
+
+Install required libraries
 
 pip install tensorflow opencv-python numpy
 
-Code Run Karein: Ab aap main.py file ko chala sakte hain.
+
+Run the code
 
 python main.py
 
-Output 
-Jab aap code ko run karenge, to terminal mein kuch is tarah ka output dikhega:
+Example Output
 
-Created a dummy image file: sample_test_image.jpg
-Initializing classifier...
-... (More messages) ...
-Prediction Results:
-Predicted Class: Class A
-Confidence: 33.33%
-Cleaned up dummy image file: sample_test_image.jpg
+When you run the script, you’ll see something like this in the terminal:
+
+Created a dummy image file: sample_test_image.jpg  
+Initializing classifier...  
+... (More messages) ...  
+Prediction Results:  
+Predicted Class: Class A  
+Confidence: 33.33%  
+Cleaned up dummy image file: sample_test_image.jpg  
 
 
